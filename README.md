@@ -286,7 +286,7 @@ title('le spectre du signal filtré:');
 ![33](https://user-images.githubusercontent.com/106840796/215271302-49052c7f-70fa-44b8-9bc9-e8a6ac9b14d8.PNG)
 ***
  ### **Explication :**
- ###### on a dabord créé un filtre passe-bas en utilisant la réponse impulsionnelle d. La fréquence de coupure (fc) est définie comme 4500Hz. et puis , on a utilisé une fonction de transfert complexe pour créer la réponse impulsionnelle du filtre, en utilisant un paramètre k=1 pour le gain et un ordre de 1 pour la réponse impulsionnelle. Ensuite, on a multiplié le spectre de la musique par la réponse impulsionnelle du filtre pour obtenir le signal filtré. et on a utilisé ensuite la transformée de Fourier inverse pour obtenir le signal temporel filtré. On observe qu on n a pas encore pu supprimer toutes les frequences indesirables .
+ ###### on a dabord créé un filtre passe-bas en utilisant la réponse impulsionnelle . La fréquence de coupure (fc) est définie comme 4500Hz. et puis , on a utilisé une fonction de transfert complexe pour créer la réponse impulsionnelle du filtre, en utilisant un paramètre k=1 pour le gain et un ordre de 1 pour la réponse impulsionnelle. Ensuite, on a multiplié le spectre de la musique par la réponse impulsionnelle du filtre pour obtenir le signal filtré. et on a utilisé ensuite la transformée de Fourier inverse pour obtenir le signal temporel filtré. On observe qu on n a pas encore pu supprimer toutes les frequences indesirables .
 
 ***
 $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
@@ -322,7 +322,6 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ***
 #### $~~~~~~$ **3. Quelles remarques pouvez-vous faire notamment sur la sonorité du signal final.** 
 ***
- ### **Explication :**
  ###### le paramètre K du filtre correspond à l'amplitude de sortie du filtre.En effet , lorsqu on a augmenter  K a 10, l'amplitude des fréquences qui passent à travers le filtre est élevée, c est l amplification .
 
 ***
