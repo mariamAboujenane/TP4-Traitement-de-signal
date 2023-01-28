@@ -12,10 +12,20 @@
 ***
 ```matlab
 %qst 1
-
-load("ecg.mat");
-x=ecg;
-
+clear all
+close all
+clc
+%%
+te=1e-4;
+fe=1/te;
+t=0:te:5-te;
+N=length(t);
+f1=500;
+f2=400;
+f3=50;
+x=sin(2*pi*f1*t) + sin(2*pi*f2*t) + sin(2*pi*f3*t);
+ plot(t,x)
+ 
 ```
 ***
 #### $~~~~~~$ **2- Ce signal a été échantillonné avec une fréquence de 500Hz. Tracer-le en fonction du temps, puis faire un zoom sur une période du signal.** 
